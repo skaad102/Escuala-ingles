@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    background-color: rgba(255, 26, 74, 1);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Noto Sans', sans-serif;
+    background: url(../img/background.png)
+}
+.fondo{
+    height:100vh;
+    background:url('https://img.freepik.com/psd-gratis/diseno-fondo-abstracto_1297-82.jpg?size=626&ext=jpg');
+    background-repeat: no-repeat;
+    background-size: cover
+}
+nav.top-nav-collapse{
+    background: rgba(111, 92, 92, 0.64) !important;
+}
+
+form label#texFile{
+    text-align: center;
+    color: white
+}
+form div.DivFile{
+    position: relative; 
+    padding: 10px;
+    width: 100%;
+    height: 2.5rem;
+    background-color: #2499e3;
+    border-radius:5px;
+    box-shadow: 0px 3px 0px #1a71a9;
+}
+form input#BtnFoto{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+a.btn-ron{
+    border-radius:6px;
+}
+
+#DivContainer{
+    margin-top: 7%;
+}
+
+div#CardEstudiante{
+    background: rgba(240, 149, 149, 0.24) !important;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+input[type=number] { -moz-appearance:textfield; }
